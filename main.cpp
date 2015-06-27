@@ -6,8 +6,8 @@
 #include <algorithm>
 #include <stdio.h>
 #include <fstream>
-#include "Defines.h"
-#include "Tables.h"
+#include "Headers/Defines.h"
+#include "Headers/Tables.h"
 
 using namespace std;
 

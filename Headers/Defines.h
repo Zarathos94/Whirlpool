@@ -46,7 +46,7 @@ typedef signed long long s64;
 #define T64(x)  ((x) & ONE64)
 #define ROTR64(v, n)   (((v) >> (n)) | T64((v) << (64 - (n))))
 
-typedef unsigned __int64 u64;
+typedef unsigned __int64;
 
 typedef struct TheWStruct {
     u8  _bitLength[32]; /// number of hashed bits
