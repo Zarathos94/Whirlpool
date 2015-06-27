@@ -340,7 +340,7 @@ int main() {
     ofstream fileout("WPHash.txt");
 
     cout << "Enter text that you want to hash with Whirlpool hash:\n";
-    scanf("%s", &WP);
+    scanf("%s", WP);
     struct TheWStruct
 		whirl;
 
